@@ -1,20 +1,4 @@
-body {
-    background-color: #ece9e8;
+header {
+   height: 40%;
+   width: auto;
 }
-
-a {
-    text-decoration: none;
-}
-
-li {
-   list-style-type: none; 
-}
-
-h1 {
-   text-align: center;
-}
-
-header img {
-   background-size: 60px 60px;
-
-}  
