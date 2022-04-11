@@ -1,4 +1,74 @@
-header {
-   height: 40%;
-   width: auto;
+body {
+   font-family: 'Josefin Sans', sans-serif;
+   margin: 0;
+   background-color: antiquewhite;
 }
+
+.card {
+   display: flex;
+   flex-direction: column;
+}
+
+header  div img {
+   height: 10%;
+   width: 100%;
+}
+
+.title {
+   display: flex;
+   justify-content: space-around;
+   background-color: teal;
+   color: antiquewhite;
+   font-size: 1.6em;
+   padding-left: 0px;
+   margin-top: -10px;
+}
+
+button {
+   position: relative;
+   top: 80px;
+   height: 100px;
+   width: 100px;
+   border-radius: 100px;
+   border: 1px solid teal;
+
+}  
+
+
+.infos {
+   font-size: 2.5em;
+   padding-left: 50px;   
+}
+
+.infos div {
+   display: flex;
+   justify-items: center;
+   margin: 5px 0 5px 25px;
+}
+
+#adresse {
+   list-style-image: url(images/location.png);   
+}
+
+#phone {
+   list-style-image: url(images/call.png);   
+}
+
+#mail {
+   list-style-image: url(images/email.png);   
+}
+
+#hour {
+   list-style-image: url(images/user.png);   
+}
+
+ul li span {
+   position: relative;
+   bottom: 20px;   
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
