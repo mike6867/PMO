@@ -67,6 +67,11 @@ ul li span {
    bottom: 20px;   
 }
 
+ul li {
+   padding-left: 20px;
+   list-style-position: outside;
+}
+
 a {
    text-decoration: none;
    color: black;
