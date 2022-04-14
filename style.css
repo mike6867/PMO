@@ -9,8 +9,8 @@ body {
    flex-direction: column;
 }
 
-header div img {
-   height: 6%;
+header img {
+   height: 8%;
    width: 100%;
 }
 
