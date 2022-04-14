@@ -27,9 +27,9 @@ header img {
 button {
    position: relative;
    top: 70px;
-   height: 200px;
-   width: 200px;
-   border-radius: 200px;
+   height: 180px;
+   width: 180px;
+   border-radius: 180px;
    border: 1px solid teal;
 
 }  
