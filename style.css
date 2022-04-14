@@ -34,7 +34,6 @@ button {
 
 }  
 
-
 .infos {
    font-size: 2.5em;
    padding-left: 50px;   
@@ -78,6 +77,6 @@ a {
 }
 
 footer p {
-   font-size: 0.4em;
+   font-size: 1.4em;
    text-align: center;
 }
