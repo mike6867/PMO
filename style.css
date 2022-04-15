@@ -76,11 +76,11 @@ a {
    color: black;
 }
 
+tr td {
+   text-align: right;
+}
+
 footer p {
    font-size: 1.4em;
    text-align: center;
-}
-
-td {
-   text-align: right;
 }
