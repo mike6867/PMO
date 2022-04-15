@@ -80,3 +80,7 @@ footer p {
    font-size: 1.4em;
    text-align: center;
 }
+
+td {
+   text-align: left;
+}
