@@ -79,6 +79,9 @@ a {
 tr td {
    text-align: right;
 }
+.day {
+   text-align: left;
+}
 
 footer p {
    font-size: 1.4em;
