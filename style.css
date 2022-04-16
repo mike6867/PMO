@@ -81,6 +81,7 @@ tr td {
 }
 .day {
    text-align: left;
+   width: 33%;
 }
 
 footer p {
