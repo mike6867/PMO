@@ -1,7 +1,7 @@
 body {
    font-family: 'Josefin Sans', sans-serif;
    margin: 0;
-   background-color: antiquewhite;
+   background-color: #ffffff;
 }
 
 .card {
@@ -17,8 +17,9 @@ header img {
 .title {
    display: flex;
    justify-content: space-around;
-   background-color: teal;
-   color: antiquewhite;
+   align-items: center;
+   background-color: #1650A4;
+   color: #ffffff;
    font-size: 1.4em;
    padding-left: 0px;
    margin-top: -10px;
@@ -26,12 +27,15 @@ header img {
 
 button {
    position: relative;
-   top: 70px;
-   height: 180px;
-   width: 180px;
-   border-radius: 180px;
-   border: 1px solid teal;
-
+   top: 60px;
+   height: 150px;
+   width: 150px;
+   border-radius: 150px;
+   background: url(images/carte.png) no-repeat;
+   background-position: center;
+   background-size: 100px;
+   border: none;
+   
 }  
 
 .infos {
@@ -58,17 +62,21 @@ button {
 }
 
 #hour {
-   list-style-image: url(images/user.png);   
+   list-style-image: url(images/horloge.png);   
 }
 
 ul li span {
    position: relative;
-   bottom: 25px;   
+   bottom: 20px;   
 }
 
 ul li {
    padding-left: 20px;
    list-style-position: outside;
+}
+
+.mail a {
+   font-size: 0.7em;
 }
 
 a {
@@ -77,21 +85,21 @@ a {
 }
 
 table {
-   border: 1px solid;
+   table-layout: fixed;
+   width: 100%;
+   border-collapse:collapse;
 }
 
-th {
+th, td {
+   border: 1px solid;
    text-align: center;
 }
 
-tr td {
-   text-align: right;
-}
 .day {
    text-align: left;
 }
 
 footer p {
-   font-size: 1.4em;
+   font-size: 1.9em;
    text-align: center;
 }
