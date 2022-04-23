@@ -25,15 +25,15 @@ header img {
    margin-top: -10px;
 }
 
-.go_to button {
+.go_to {
    position: relative;
    top: 60px;
    height: 150px;
    width: 150px;
    border-radius: 150px;
-   background: url(images/carte.png) no-repeat;
+   /*background: url(images/carte.png) no-repeat;
    background-position: center;
-   background-size: 100px;
+   background-size: 100px;*/
    border: none;
    
 }  
