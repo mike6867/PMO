@@ -61,7 +61,7 @@ header img {
    list-style-image: url(images/horloge.png);   
 }
 
-ul li span, #hour {
+ul li span {
    position: relative;
    bottom: 20px;   
 }
@@ -72,7 +72,7 @@ ul li {
 }
 
 .mail a {
-   font-size: 0.9em;
+   font-size: 0.82em;
 }
 
 a {
