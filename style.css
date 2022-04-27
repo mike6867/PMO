@@ -10,7 +10,7 @@ body {
 }
 
 header img {
-   height: auto;
+   height: 40vh;
    width: 100%;
 }
 
@@ -72,7 +72,7 @@ ul li {
 }
 
 .mail a {
-   font-size: 0.8em;
+   font-size: 0.9em;
 }
 
 a {
@@ -83,7 +83,7 @@ a {
 table {
    table-layout: fixed;
    width: 96%;
-   border-collapse:collapse;
+   border-collapse: collapse;
 }
 
 th, td {
