@@ -10,7 +10,7 @@ body {
 }
 
 header img {
-   height: 40vh;
+   height: auto;
    width: 100%;
 }
 
@@ -61,7 +61,7 @@ header img {
    list-style-image: url(images/horloge.png);   
 }
 
-ul li span {
+ul li span, #hour {
    position: relative;
    bottom: 20px;   
 }
