@@ -3,7 +3,7 @@
 }
 
 body {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Audiowide', cursive;
    margin: 0;
    background-color: #ffffff;
    display: flex;
@@ -20,8 +20,9 @@ header img {
    justify-content: space-around;
    align-items: center;
    background-color: #1650A4;
+   font-family: 'Black Ops One', cursive;
    color: #ffffff;
-   font-size: 20px;
+   font-size: 40px;
    padding-left: 0px;
    margin-top: -10px;
 }
@@ -91,6 +92,7 @@ ul li {
 a {
    text-decoration: none;
    color: #000;
+   transition: 0.3s;
 }
 
 a:hover {
@@ -121,9 +123,9 @@ hr {
 
 .emplacement img {
    position: relative;
-   visibility: hidden;
    width: 0;
    height: 0;
+   visibility: hidden;
 }
 
 footer p {
@@ -158,23 +160,22 @@ header:after {
    top: 0;
    left: 0;
    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
-  
 }
 
 .title {
    position: relative;
-   font-size: 16px;
+   font-size: 40px;
    color: #ffffff;
    width: 100%;
    height: 60px;
-   padding: 10px 2% 0 5%;
+   padding: 12px 2% 0 5%;
    justify-content: space-between;
-   vertical-align: middle;
+   opacity: 0.75;  
 }
 
 .go {
    position: relative;
-   top: 60px;
+   top: 40px;
    height: 120px;
    width: 120px;
 }
@@ -183,42 +184,55 @@ header:after {
    border-radius: 8px;
    height: 62%;
    width: 62%;
+   transition: 0.8s;
 }
 
-.go img:hover {
+.go img:hover, .emplacement img:hover {
    transform: scale(1.1);
-   transition: 0.3s;
+   transition: 0.8s;
    box-shadow: 5px 5px 10px #000;
 }     
 
 .infos {
    margin-top: -10px;
-   font-size: 12px;
+   font-size: 19px;
    padding-left: 0;
-   background-color: #ffffff;
+   padding-top: 20px;   
 }
 
 .infos div {
    display: flex;
-   justify-items: center;
+   color: #ffffff;
    margin: 5px 0 8px 0px;   
 }
 
 ul {
-   margin: 10px 0 0 0;
+   margin: 10px 0 20px 20px;
 }
 
 ul li {
    padding-left: 10px;
+   position: relative;
+   color: #a8a8a8;
 }
 
 ul li a, #adresse span {
    bottom: 8px;
-   color: #ffffff;
+   color: #a8a8a8;
 }
 
 .mail a {
-   font-size: 12px;
+   font-size: 20px;
+   
+}
+
+a {
+   transition: 0.3s;
+}
+
+a:hover {
+   transition: 0.3s;
+   color: #000;
 }
 
 #adresse {
@@ -237,6 +251,14 @@ ul li a, #adresse span {
    list-style-image: url(images/horloge_small.png);
 }
 
+table {
+   width: 35%;
+}
+
+.day {
+   text-align: left;
+}
+
 .emplacement div {
    width: 80%;
    height: auto;
@@ -244,20 +266,30 @@ ul li a, #adresse span {
 
 .emplacement img {
    visibility: visible;
-   width: 70%;
+   width: 50%;
    height: auto;
-   position: absolute;
-   left: 15%;
-   right: 15%;
-   top: 80%;
-   bottom: 15%;
+   position: relative;
+   left: 25%;
+   right: 25%;
+   top: 40%;
    z-index: 1;
    border-radius: 10px;
+   opacity: 0.66;
+   transition: 0.8s;
+}
+
+hr {
+   position: relative;
+   border: rgb(212, 212, 212) solid 1px;
+   width: 70%;
+   bottom: -10px;
 }
 
 footer p {
-   font-size: 10px;
-   z-index: 1;  
+   position: relative;
+   font-size: 12px;
+   color: #a8a8a8;
+   z-index: 2;  
 }
 
 }
