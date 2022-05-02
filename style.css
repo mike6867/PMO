@@ -1,6 +1,23 @@
 * {
    box-sizing: border-box;
 }
+@font-face {
+   font-family: 'AudiowideRegular';
+   src: url('fonts/AudiowideRegular.eot');
+   src: url('fonts/AudiowideRegular.eot') format('embedded-opentype'),
+        url('fonts/AudiowideRegular.woff2') format('woff2'),
+        url('fonts/AudiowideRegular.woff') format('woff'),
+        url('fonts/AudiowideRegular.ttf') format('truetype'),
+        url('fonts/AudiowideRegular.svg#AudiowideRegular') format('svg');
+
+   font-family: 'BlackOpsOneRegular';
+   src: url('fonts/BlackOpsOneRegular.eot');
+   src: url('fonts/BlackOpsOneRegular.eot') format('embedded-opentype'),
+        url('fonts/BlackOpsOneRegular.woff2') format('woff2'),
+        url('fonts/BlackOpsOneRegular.woff') format('woff'),
+        url('fonts/BlackOpsOneRegular.ttf') format('truetype'),
+        url('fonts/BlackOpsOneRegular.svg#BlackOpsOneRegular') format('svg');
+}
 
 body {
    font-family: 'Audiowide', cursive;
