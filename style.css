@@ -1,17 +1,18 @@
+* {
+   box-sizing: border-box;
+}
+
 body {
    font-family: 'Josefin Sans', sans-serif;
    margin: 0;
    background-color: #ffffff;
-}
-
-.card {
    display: flex;
    flex-direction: column;
 }
 
 header img {
-   height: auto;
    width: 100%;
+   height: auto;
 }
 
 .title {
@@ -20,50 +21,62 @@ header img {
    align-items: center;
    background-color: #1650A4;
    color: #ffffff;
-   font-size: 1.4em;
+   font-size: 20px;
    padding-left: 0px;
    margin-top: -10px;
 }
 
-#go a {
+.go {
    position: relative;
-   top: 60px;
-   height: 250px;
-   width: 250px;
-   border-radius: 250px;
-   border: none;
-}  
+   top: 40px;
+   height: 150px;
+   width: 150px;
+}
+
+.go img {
+   border-radius: 8px;
+   height: 100%;
+   width: 100%;
+}
+
+.go img:hover {
+   transform: scale(1.1);
+   transition: 0.3s;
+   box-shadow: 5px 5px 10px #000;
+}
 
 .infos {
-   font-size: 2.5em;
-   padding-left: 50px;   
+   margin-top: -10px;
+   font-size: 2.3em;
+   padding-left: 45px;
+   background-color: #ffffff;
 }
 
 .infos div {
    display: flex;
    justify-items: center;
-   margin: 5px 0 5px 25px;
+   margin: 0 0 0 25px;
 }
 
 #adresse {
-   list-style-image: url(images/location.png);   
+   list-style-image: url(images/location.png);
 }
 
 #phone {
-   list-style-image: url(images/call.png);   
+   list-style-image: url(images/call.png);
 }
 
 #mail {
-   list-style-image: url(images/email.png);   
+   list-style-image: url(images/email.png);
 }
 
 #hour {
-   list-style-image: url(images/horloge.png);   
+   list-style-image: url(images/horloge.png);
 }
 
-ul li span {
+ul li a, #adresse span {
    position: relative;
-   bottom: 20px;   
+   bottom: 20px;
 }
 
 ul li {
@@ -77,7 +90,12 @@ ul li {
 
 a {
    text-decoration: none;
-   color: black;
+   color: #000;
+}
+
+a:hover {
+   color: #a8a8a8;
+   transition: 0.3s;
 }
 
 table {
@@ -86,7 +104,8 @@ table {
    border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
    border: 1px solid;
    text-align: center;
 }
@@ -95,7 +114,146 @@ th, td {
    text-align: left;
 }
 
+hr {
+   border: rgb(212, 212, 212) solid 1px;
+   width: 70%;
+}
+
+.emplacement img {
+   visibility: hidden;
+}
+
 footer p {
    font-size: 1.9em;
    text-align: center;
+}
+
+
+@media screen and (min-width: 1024px) {
+ 
+body {
+   display: block;
+}
+
+header {
+   position: relative;
+   margin:0;
+   width: 100%;
+   position: fixed;
+   display: inline-block;
+}
+  
+header img {
+   display: inline-block;
+}
+  
+header:after {
+   position: absolute;
+   content: "";
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  
+}
+
+.title {
+   position: relative;
+   font-size: 12px;
+   color: #ffffff;
+   width: 100%;
+   height: 60px;
+   padding: 0 2% 0 5%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.go {
+   position: relative;
+   top: 70px;
+   height: 120px;
+   width: 120px;
+}
+
+.go img {
+   border-radius: 8px;
+   height: 62%;
+   width: 62%;
+}
+
+.go img:hover {
+   transform: scale(1.1);
+   transition: 0.3s;
+   box-shadow: 5px 5px 10px #000;
+}     
+
+.infos {
+   margin-top: -10px;
+   font-size: 12px;
+   padding-left: 0;
+   background-color: #ffffff;
+}
+
+.infos div {
+   display: flex;
+   justify-items: center;
+   margin: 5px 0 8px 0px;   
+}
+
+ul {
+   margin: 10px 0 0 0;
+}
+
+ul li {
+   padding-left: 10px;
+}
+
+ul li a, #adresse span {
+   bottom: 8px;
+}
+
+.mail a {
+   font-size: 12px;
+}
+
+#adresse {
+   list-style-image: url(images/location_small.png);
+}
+
+#phone {
+   list-style-image: url(images/call_small.png);
+}
+
+#mail {
+   list-style-image: url(images/email_small.png);
+}
+
+#hour {
+   list-style-image: url(images/horloge_small.png);
+}
+
+.emplacement div {
+   width: 80%;
+   height: auto;
+}
+
+.emplacement img {
+   visibility: visible;
+   width: 70%;
+   height: auto;
+   position: absolute;
+   left: 15%;
+   right: 15%;
+   top: 80%;
+   bottom: 15%;
+   z-index: 1;
+   border-radius: 10px;
+}
+
+footer p {
+   font-size: 10px;
+   z-index: 1;  
+}
+
 }
